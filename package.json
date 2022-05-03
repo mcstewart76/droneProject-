@@ -2,7 +2,7 @@
   "name": "droneproject-",
   "version": "1.0.0",
   "description": "A project flying a drone using node and express",
-  "main": "server.js",
+  "main": "tello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node tello.js"
@@ -14,10 +14,10 @@
   "author": "Chris Stewart",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.3",
-    "dgram":"1.0.1",
+    "dgram": "1.0.1",
+    "express": "^4.17.3",
+    "keymage": "^1.1.3",
     "readline": "1.3.0"
-    
   },
   "bugs": {
     "url": "https://github.com/mcstewart76/droneProject-/issues"
